@@ -8,7 +8,7 @@
 :root {
     --text: navy;
     --boarder: rgba(0, 255, 255, 0.61);
-    --mainbackground: white;
+    --mainbackground: rgba(255, 255, 255, 0.651);
     --headbg: rgb(3, 57, 219);
     --headtx: navajowhite;
     --herotx: black;
@@ -100,6 +100,7 @@ margin-bottom: 1rem;
     background-size: cover;
     position: relative;
     min-height: 400px;
+    box-shadow: 0rem 2rem 20rem rgba(0, 0, 0, 0.582);
 }
 
 div h2 {
@@ -150,7 +151,7 @@ div h2 {
 }
 
 .aboutme h1 {
-    background-color: white;
+    background-color: var(--mainbackground);
     color: var(--text);
     text-align: right;
     padding-right: 1rem;
@@ -179,14 +180,11 @@ main {
 
 .work {
     display: flex;
-    flex-direction: row;
-    flex: 1;
-    margin: 0, -0.8rem;
 }
 
 
 .work h1 {
-    background-color: white;
+    background-color: var(--mainbackground);
     color: var(--text);
     text-align: right;
     padding-right: 1rem;
@@ -196,17 +194,22 @@ main {
     bottom: 0%;
 }
 
+.flexbox1 { 
+    display:flex;
+    flex-wrap: wrap;
+}
+
 .big-proj {
     background-image: url(./images/star-wars-backgrounds-06.jpg);
     border: 2px solid rgba(0, 255, 255, 0.61);
-    width: 100%;
-    min-height: 300px;
     box-shadow: 0 0 1rem cyan;
+    width: 100%;
+    padding: 15rem;
 }
 
-div.big-proj:hover {
+/* div.big-proj:hover {
     opacity: 0.2;
-}
+} */
 
 div h3 {
     color: black;
@@ -214,20 +217,83 @@ div h3 {
     box-shadow: 0 0 1rem cyan;
 }
 
-.projtxt {
-    position:relative;
+/* .projtxt {
     margin: 0 auto;
     left: 24%;
     right: 0;
-    z-index: 2;
     top: 75%;
     width: 45%;
     text-align: center;
+} */
+
+.big-proj .projtxt .small-image1 .small-image2 .small-image3 .small-image4 {
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
 }
 
+.big-proj:hover,
+.projtxt:hover,
+.small-image1:hover,
+.small-image2:hover,
+.small-image3:hover,
+.small-image4:hover {
+    box-shadow: inset 0rem 0rem 0.5rem rgba(0, 255, 255, 0.61), 0 0 2rem rgba(0, 255, 255, 0.61);
+    opacity: 0.7;
+}
 
+.small-projs {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 10 10 50% ;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
 
+.small-image1 {
+    background-image: url(./images/safety2.jpg);
+    border: 2px solid rgba(0, 255, 255, 0.61);
+    box-shadow:  0 1rem cyan;
+    width: auto;
+    padding: 10rem;
+
+}
+
+.small-image2 {
+    background-image: url(./images/design.jpg);
+    border: 2px solid rgba(0, 255, 255, 0.61);
+    box-shadow: 0 0 1rem cyan;
+    width: auto;
+    padding: 10rem;
+
+}
+
+.small-image3 {
+    background-image: url(./images/image3.jpeg);
+    border: 2px solid rgba(0, 255, 255, 0.61);
+    box-shadow: 0 0 1rem cyan;
+    width: auto;
+    padding: 10rem;
+
+}
+.small-image4 {
+    background-image: url(./images/image4.jpg);
+    border: 2px solid rgba(0, 255, 255, 0.61);
+    box-shadow: 0 0 1rem cyan;
+    width: auto;
+    padding: 10rem;
+
+}
 footer {
     margin: 1.5rem;
-    text-align: center;
+    text-align: left;
+
+
+}
+
+.contact h1 {
+    background-color: var(--mainbackground);
+    color: var(--text);
+    padding-right: 1rem;
+    min-height: 15rem;
 }
