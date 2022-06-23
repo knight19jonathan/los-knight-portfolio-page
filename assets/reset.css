@@ -39,17 +39,4 @@
   ul {
     list-style: none;
   }
-
-  hr {
-    border:0;
-    border-top:1px solid #555;
-    margin:0;
-    height:1px;
-    display: flex;
-    unicode-bidi: normal;
-    overflow: visible;
-    margin-block-start: 100%;
-    margin-block-end: 100%;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    }
+  

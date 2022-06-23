@@ -121,6 +121,9 @@ div h2 {
     div.hero-text h2 {
         font-size: 2rem;
     }
+    div.projtxt h3 {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -129,6 +132,9 @@ div h2 {
     }
     .navlist {
         flex-direction: column;
+    }
+    div.projtxt h3 {
+        font-size: 1.5rem;
     }
 }
 
@@ -155,7 +161,7 @@ div h2 {
 }
 
 .vl {
-    width: 2rem;
+    width: 1rem;
     margin: 1rem;
     background: var(--headbg);
 }
@@ -170,6 +176,56 @@ main {
     width: 96%;
     margin: 2rem auto;
 }
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 0, -0.8rem;
+}
+
+
+.work h1 {
+    background-color: white;
+    color: var(--text);
+    text-align: right;
+    padding-right: 1rem;
+    min-height: 15rem;
+    position: relative;
+    top: 100%;
+    bottom: 0%;
+}
+
+.big-proj {
+    background-image: url(./images/star-wars-backgrounds-06.jpg);
+    border: 2px solid rgba(0, 255, 255, 0.61);
+    width: 100%;
+    min-height: 300px;
+    box-shadow: 0 0 1rem cyan;
+}
+
+div.big-proj:hover {
+    opacity: 0.2;
+}
+
+div h3 {
+    color: black;
+    background-color: var(--boarder);
+    box-shadow: 0 0 1rem cyan;
+}
+
+.projtxt {
+    position:relative;
+    margin: 0 auto;
+    left: 24%;
+    right: 0;
+    z-index: 2;
+    top: 75%;
+    width: 45%;
+    text-align: center;
+}
+
+
 
 footer {
     margin: 1.5rem;
