@@ -217,14 +217,14 @@ div h3 {
     box-shadow: 0 0 1rem cyan;
 }
 
-/* .projtxt {
+.projtxt {
     margin: 0 auto;
     left: 24%;
     right: 0;
     top: 75%;
     width: 45%;
     text-align: center;
-} */
+}
 
 .big-proj .projtxt .small-image1 .small-image2 .small-image3 .small-image4 {
     border-radius: 10px;
@@ -255,6 +255,7 @@ div h3 {
     border: 2px solid rgba(0, 255, 255, 0.61);
     box-shadow:  0 1rem cyan;
     width: auto;
+    height: auto;
     padding: 10rem;
 
 }
@@ -264,6 +265,7 @@ div h3 {
     border: 2px solid rgba(0, 255, 255, 0.61);
     box-shadow: 0 0 1rem cyan;
     width: auto;
+    height: auto;
     padding: 10rem;
 
 }
@@ -273,6 +275,7 @@ div h3 {
     border: 2px solid rgba(0, 255, 255, 0.61);
     box-shadow: 0 0 1rem cyan;
     width: auto;
+    height: auto;
     padding: 10rem;
 
 }
@@ -281,6 +284,7 @@ div h3 {
     border: 2px solid rgba(0, 255, 255, 0.61);
     box-shadow: 0 0 1rem cyan;
     width: auto;
+    height: auto;
     padding: 10rem;
 
 }

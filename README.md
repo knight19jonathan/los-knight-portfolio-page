@@ -21,3 +21,7 @@ no alt text for images
 fixed flexbow rows trying to align images and get content sized correctly
 
 
+
+
+![screenshot1](assets/images/screenshot1.JPG)
+![screenshot2](assets/images/screenshot2.JPG) ![](assets/images/screenshot1.JPG) 
