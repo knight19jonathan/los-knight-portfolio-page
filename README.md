@@ -1,6 +1,11 @@
 # los-knight-portfolio-page
 
+
+
 A Portfolio Website Displaying the different work histories and personal history of Jonathan Knight 
+Made by Jonathan Knight. Design from various sources in Class products and CSS Act28
+
+Notes:
 
 Navbar works, links works, collapses to columns at cell phone view
 
@@ -21,7 +26,10 @@ no alt text for images
 fixed flexbow rows trying to align images and get content sized correctly
 
 
+To Do List:
+Fix flex box dimensions for lower 4 work items  xx
+Align footer to main page x alternative solution
+Get verticle line dimensions to format correctly oo needs further work
 
-
-![screenshot1](assets/images/screenshot1.JPG)
-![screenshot2](assets/images/screenshot2.JPG)
+![screenshot1](assets/images/screenshot1.JPG) [alt screen shot of page top half]
+![screenshot2](assets/images/screenshot2.JPG) [alt screen shot  of page bottom half]
